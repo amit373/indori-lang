@@ -1,0 +1,53 @@
+{
+  "name": "@indori-lang/compiler",
+  "version": "1.0.0",
+  "description": "IndoriLang v1.0 Compiler and Transpiler - A programming language in authentic Indori slang",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx --test tests/*.test.ts",
+    "dev": "tsx src/index.ts",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts",
+    "prepublishOnly": "pnpm run build"
+  },
+  "keywords": [
+    "indori",
+    "compiler",
+    "transpiler",
+    "lexer",
+    "parser",
+    "typescript",
+    "programming-language",
+    "indori-lang"
+  ],
+  "author": "IndoriLang Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/indori-lang/indori-lang.git",
+    "directory": "packages/compiler"
+  },
+  "homepage": "https://indori-lang.netlify.app",
+  "bugs": {
+    "url": "https://github.com/indori-lang/indori-lang/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "indori-lang",
+  "version": "1.0.0",
+  "description": "IndoriLang v1.0 - Programming language in authentic Indori slang",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "pnpm -r build",
+    "build:compiler": "pnpm --filter @indori-lang/compiler build",
+    "build:cli": "pnpm --filter indori-lang build",
+    "test": "pnpm -r test",
+    "test:compiler": "pnpm --filter @indori-lang/compiler test",
+    "dev:website": "pnpm --filter @indori-lang/website dev",
+    "build:website": "pnpm --filter @indori-lang/website build",
+    "lint": "pnpm -r lint",
+    "lint:compiler": "pnpm --filter @indori-lang/compiler lint",
+    "lint:cli": "pnpm --filter indori-lang lint",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "publish:compiler": "pnpm --filter @indori-lang/compiler publish --access public",
+    "publish:cli": "pnpm --filter indori-lang publish --access public"
+  },
+  "keywords": ["indori", "programming-language", "compiler", "transpiler", "typescript"],
+  "author": "IndoriLang Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-react": "^7.33.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.0.0"
+  }
+}

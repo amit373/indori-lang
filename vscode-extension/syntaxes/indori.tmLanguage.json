@@ -1,0 +1,250 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "IndoriLang",
+  "scopeName": "source.indori",
+  "fileTypes": [
+    "il"
+  ],
+  "patterns": [
+    {
+      "include": "#.*$",
+      "name": "comment.line.number-sign.indori",
+      "match": "#.*$"
+    },
+    {
+      "name": "string.quoted.double.indori",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.indori",
+          "match": "\\\\."
+        }
+      ]
+    },
+    {
+      "name": "string.quoted.single.indori",
+      "begin": "'",
+      "end": "'",
+      "patterns": [
+        {
+          "name": "constant.character.escape.indori",
+          "match": "\\\\."
+        }
+      ]
+    },
+    {
+      "name": "constant.numeric.indori",
+      "match": "\\b\\d+\\b"
+    },
+    {
+      "name": "keyword.control.indori",
+      "match": "\\b(agar_re|warna_re|jabtak_re|ghuma_re|jabtak_re_kar|bhiya_try|bhiya_catch|bhiya_finally)\\b"
+    },
+    {
+      "name": "keyword.declaration.function.indori",
+      "match": "\\b(bhiya_ka|de_re)\\b"
+    },
+    {
+      "name": "keyword.declaration.variable.indori",
+      "match": "\\b(kaam|laa_re)\\b"
+    },
+    {
+      "name": "keyword.declaration.array.indori",
+      "match": "\\b(jama_re|ketlu_re|nikaal_re|ghuma_map|chhaan_re|ghuma_reduce)\\b"
+    },
+    {
+      "name": "keyword.declaration.object.indori",
+      "match": "\\b(naksha_re|dikha_re|badal_re)\\b"
+    },
+    {
+      "name": "keyword.operator.logical.indori",
+      "match": "\\b(ane_re|ya_re|nako_re)\\b"
+    },
+    {
+      "name": "constant.language.boolean.true.indori",
+      "match": "\\b(bilkul_sahi)\\b"
+    },
+    {
+      "name": "constant.language.boolean.false.indori",
+      "match": "\\b(ghapla_hai)\\b"
+    },
+    {
+      "name": "keyword.other.async.indori",
+      "match": "\\b(thoda_ruk_re|ruk_re)\\b"
+    },
+    {
+      "name": "support.function.console.indori",
+      "match": "\\b(bhiya_bol|bhiya_chitav|bhiya_gadbad|bhiya_suna)\\b"
+    },
+    {
+      "name": "support.function.easter-egg.indori",
+      "match": "\\b(poha_time|jalebi_mode|rajwada_mode|sarafa_night)\\b"
+    },
+    {
+      "name": "keyword.operator.assignment.indori",
+      "match": "="
+    },
+    {
+      "name": "keyword.operator.comparison.indori",
+      "match": "==|!=|<=|>=|<|>"
+    },
+    {
+      "name": "keyword.operator.arithmetic.indori",
+      "match": "\\+|\\-|\\*|\\/"
+    },
+    {
+      "name": "punctuation.terminator.indori",
+      "match": ";"
+    },
+    {
+      "name": "punctuation.bracket.curly.indori",
+      "match": "\\{|\\}"
+    },
+    {
+      "name": "punctuation.bracket.round.indori",
+      "match": "\\(|\\)"
+    },
+    {
+      "name": "punctuation.bracket.square.indori",
+      "match": "\\[|\\]"
+    },
+    {
+      "name": "punctuation.separator.comma.indori",
+      "match": ","
+    },
+    {
+      "name": "punctuation.accessor.dot.indori",
+      "match": "\\."
+    }
+  ],
+  "colors": [
+    {
+      "name": "Comments",
+      "scope": [
+        "comment.line.number-sign.indori"
+      ],
+      "settings": {
+        "foreground": "#6A9955"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string.quoted.double.indori",
+        "string.quoted.single.indori"
+      ],
+      "settings": {
+        "foreground": "#CE9178"
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": [
+        "constant.numeric.indori"
+      ],
+      "settings": {
+        "foreground": "#B5CEA8"
+      }
+    },
+    {
+      "name": "Control Keywords",
+      "scope": [
+        "keyword.control.indori"
+      ],
+      "settings": {
+        "foreground": "#C586C0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Function Keywords",
+      "scope": [
+        "keyword.declaration.function.indori"
+      ],
+      "settings": {
+        "foreground": "#C586C0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Variable Keywords",
+      "scope": [
+        "keyword.declaration.variable.indori"
+      ],
+      "settings": {
+        "foreground": "#085",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Array Keywords",
+      "scope": [
+        "keyword.declaration.array.indori"
+      ],
+      "settings": {
+        "foreground": "#085",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Object Keywords",
+      "scope": [
+        "keyword.declaration.object.indori"
+      ],
+      "settings": {
+        "foreground": "#085",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Logical Keywords",
+      "scope": [
+        "keyword.operator.logical.indori"
+      ],
+      "settings": {
+        "foreground": "#C586C0"
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Boolean True",
+      "scope": [
+        "constant.language.boolean.true.indori"
+      ],
+      "settings": {
+        "foreground": "#B5CEA8",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Boolean False",
+      "scope": [
+        "constant.language.boolean.false.indori"
+      ],
+      "settings": {
+        "foreground": "#D16969",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Console Functions",
+      "scope": [
+        "support.function.console.indori"
+      ],
+      "settings": {
+        "foreground": "#DCDCAA"
+      }
+    },
+    {
+      "name": "Easter Eggs",
+      "scope": [
+        "support.function.easter-egg.indori"
+      ],
+      "settings": {
+        "foreground": "#FFD700",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "indori-lang",
+  "version": "1.0.0",
+  "description": "IndoriLang CLI - Run and compile IndoriLang programs from the command line",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "bin": {
+    "indori": "./dist/bin/indori.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx --test tests/*.test.ts",
+    "dev": "tsx src/bin/indori.ts",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts",
+    "prepublishOnly": "pnpm run build"
+  },
+  "keywords": [
+    "indori",
+    "cli",
+    "compiler",
+    "transpiler",
+    "typescript",
+    "programming-language",
+    "indori-lang",
+    "command-line"
+  ],
+  "author": "IndoriLang Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/indori-lang/indori-lang.git",
+    "directory": "packages/cli"
+  },
+  "homepage": "https://indori-lang.netlify.app",
+  "bugs": {
+    "url": "https://github.com/indori-lang/indori-lang/issues"
+  },
+  "dependencies": {
+    "@indori-lang/compiler": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
