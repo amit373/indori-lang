@@ -1,6 +1,6 @@
 {
   "name": "indori-lang",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "IndoriLang CLI - Run and compile IndoriLang programs from the command line",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -34,12 +34,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/indori-lang/indori-lang.git",
+    "url": "https://github.com/amit373/indori-lang.git",
     "directory": "packages/cli"
   },
   "homepage": "https://indori-lang.netlify.app",
   "bugs": {
-    "url": "https://github.com/indori-lang/indori-lang/issues"
+    "url": "https://github.com/amit373/indori-lang/issues"
   },
   "dependencies": {
     "@indori-lang/compiler": "workspace:*"
