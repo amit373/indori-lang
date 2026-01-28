@@ -108,7 +108,7 @@ export default function HomePage() {
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="text-lg px-8">
-                <a href="https://github.com/indori-lang/indori-lang" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/amit373/indori-lang" target="_blank" rel="noopener noreferrer">
                   <Github className="mr-2 h-5 w-5" />
                   GitHub
                 </a>
@@ -124,7 +124,7 @@ export default function HomePage() {
                 <Image src="https://img.shields.io/npm/v/@indori-lang/compiler" alt="npm version" width={100} height={20} unoptimized />
               </a>
               <a
-                href="https://github.com/indori-lang/indori-lang"
+                href="https://github.com/amit373/indori-lang"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"

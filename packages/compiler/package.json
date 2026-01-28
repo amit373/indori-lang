@@ -37,12 +37,15 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/indori-lang/indori-lang.git",
+    "url": "git+https://github.com/amit373/indori-lang.git",
     "directory": "packages/compiler"
   },
   "homepage": "https://indori-lang.netlify.app",
   "bugs": {
-    "url": "https://github.com/indori-lang/indori-lang/issues"
+    "url": "https://github.com/amit373/indori-lang/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {},
   "devDependencies": {

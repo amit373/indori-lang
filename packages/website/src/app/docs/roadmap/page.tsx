@@ -106,7 +106,7 @@ export default function RoadmapPage() {
           Want to help build IndoriLang? Check out our contributing guide and join the community!
         </p>
         <a
-          href="https://github.com/indori-lang/indori-lang"
+          href="https://github.com/amit373/indori-lang"
           target="_blank"
           rel="noopener noreferrer"
           className="text-primary hover:underline"

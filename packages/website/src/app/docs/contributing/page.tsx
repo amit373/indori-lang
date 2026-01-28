@@ -23,7 +23,7 @@ export default function ContributingPage() {
           <div className="border rounded-lg p-6">
             <h3 className="text-lg font-semibold mb-2">1. Fork the Repository</h3>
             <p className="text-muted-foreground">
-              Fork the <a href="https://github.com/indori-lang/indori-lang" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">IndoriLang repository</a> on GitHub.
+              Fork the <a href="https://github.com/amit373/indori-lang" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">IndoriLang repository</a> on GitHub.
             </p>
           </div>
           <div className="border rounded-lg p-6">
@@ -121,7 +121,7 @@ export default function ContributingPage() {
           If you have questions or need help, feel free to open an issue on GitHub.
         </p>
         <Button asChild>
-          <a href="https://github.com/indori-lang/indori-lang" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/amit373/indori-lang" target="_blank" rel="noopener noreferrer">
             <Github className="mr-2 h-4 w-4" />
             View on GitHub
             <ExternalLink className="ml-2 h-4 w-4" />

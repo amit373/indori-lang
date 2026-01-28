@@ -84,7 +84,7 @@ export default function VSCodePage() {
           If you encounter any issues with the VS Code extension, please report them on GitHub.
         </p>
         <Button asChild variant="outline">
-          <a href="https://github.com/indori-lang/indori-lang/issues" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/amit373/indori-lang/issues" target="_blank" rel="noopener noreferrer">
             Report Issue
             <ExternalLink className="ml-2 h-4 w-4" />
           </a>

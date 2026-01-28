@@ -69,7 +69,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  href="https://github.com/indori-lang/indori-lang"
+                  href="https://github.com/amit373/indori-lang"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1"
@@ -81,7 +81,7 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="https://github.com/indori-lang/indori-lang/issues"
+                  href="https://github.com/amit373/indori-lang/issues"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1"

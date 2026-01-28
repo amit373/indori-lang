@@ -58,7 +58,7 @@ export function Navbar() {
             variant="ghost"
             size="icon"
             className="hidden sm:flex"
-            onClick={() => window.open('https://github.com/indori-lang/indori-lang', '_blank')}
+            onClick={() => window.open('https://github.com/amit373/indori-lang', '_blank')}
             aria-label="GitHub"
           >
             <Github className="h-5 w-5" />
@@ -120,7 +120,7 @@ export function Navbar() {
               variant="ghost"
               size="sm"
               onClick={() => {
-                window.open('https://github.com/indori-lang/indori-lang', '_blank');
+                window.open('https://github.com/amit373/indori-lang', '_blank');
                 setMobileMenuOpen(false);
               }}
             >

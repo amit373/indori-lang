@@ -26,7 +26,7 @@ IndoriLang is a fun, expressive programming language that uses authentic Indori 
 #### CLI Tool
 
 ```bash
-npm install -g @indori-lang/cli
+npm install -g indori-lang/cli/cli
 ```
 
 #### VS Code Extension
@@ -440,7 +440,7 @@ npm install @indori-lang/compiler
 Command-line interface
 
 ```bash
-npm install -g @indori-lang/cli
+npm install -g indori-lang/cli/cli
 ```
 
 ## 🔧 CLI Commands
@@ -500,7 +500,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🔗 Links
 
 - **Playground**: [https://indori-lang.netlify.app](https://indori-lang.netlify.app)
-- **GitHub**: [https://github.com/indori-lang/indori-lang](https://github.com/indori-lang/indori-lang)
+- **GitHub**: [https://github.com/amit373/indori-lang](https://github.com/amit373/indori-lang)
 - **NPM**: [@indori-lang/compiler](https://www.npmjs.com/package/@indori-lang/compiler)
 - **VS Code Marketplace**: [IndoriLang Extension](https://marketplace.visualstudio.com/items?itemName=indori-lang.indori-lang)
 
