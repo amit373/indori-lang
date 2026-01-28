@@ -1,11 +1,6 @@
 [build]
-  publish = "packages/playground/dist"
-  command = "cd packages/playground && npm install && npm run build"
+  publish = "packages/website/.next"
+  command = "pnpm --filter @indori-lang/website build"
 
 [build.environment]
   NODE_VERSION = "18"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
