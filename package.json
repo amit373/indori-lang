@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "IndoriLang v1.0 - Programming language in authentic Indori slang",
   "private": true,
+  "packageManager": "pnpm@10.27.0",
   "workspaces": [
     "packages/*"
   ],

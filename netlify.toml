@@ -1,6 +1,6 @@
 [build]
   publish = "packages/website/.next"
-  command = "pnpm --filter @indori-lang/website build"
+  command = "pnpm --filter @indori-lang/compiler build && pnpm --filter @indori-lang/website build"
 
 [build.environment]
   NODE_VERSION = "18"
