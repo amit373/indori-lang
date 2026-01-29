@@ -76,7 +76,7 @@ export default function ContributingPage() {
           <div>
             <h3 className="text-lg font-semibold mb-2">Setup Steps</h3>
             <ol className="list-decimal list-inside space-y-2 text-muted-foreground">
-              <li>Clone your fork: <code className="bg-muted px-1 rounded">git clone https://github.com/your-username/indori-lang.git</code></li>
+              <li>Clone your fork: <code className="bg-muted px-1 rounded">git clone https://github.com/amit373/indori-lang.git</code></li>
               <li>Install dependencies: <code className="bg-muted px-1 rounded">pnpm install</code></li>
               <li>Build packages: <code className="bg-muted px-1 rounded">pnpm run build</code></li>
               <li>Run tests: <code className="bg-muted px-1 rounded">pnpm test</code></li>
