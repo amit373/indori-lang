@@ -1,6 +1,6 @@
 {
   "name": "@indori-lang/compiler",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "IndoriLang v1.0 Compiler and Transpiler - A programming language in authentic Indori slang",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -7,7 +7,7 @@ export default function DocsLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="container px-4 py-8">
+    <div className="container mx-auto px-4 py-8">
       <div className="grid grid-cols-1 lg:grid-cols-[250px_1fr] gap-8">
         <aside className="hidden lg:block">
           <DocsSidebar />

@@ -35,7 +35,7 @@ npm login
 npm publish --access public
 ```
 
-#### CLI Package (indori-lang)
+#### CLI Package (@indori-lang/cli)
 
 ```bash
 cd packages/cli
@@ -53,7 +53,7 @@ pnpm login  # or npm login
 pnpm publish --access public
 ```
 
-#### CLI Package (indori-lang)
+#### CLI Package (@indori-lang/cli)
 
 ```bash
 cd packages/cli
@@ -80,7 +80,7 @@ pnpm run build
 
 # Publish specific package using pnpm filter
 pnpm --filter @indori-lang/compiler publish --access public
-pnpm --filter indori-lang publish --access public
+pnpm --filter @indori-lang/cli publish --access public
 
 # Or use the npm scripts (recommended)
 pnpm run publish:compiler
@@ -178,7 +178,7 @@ Update version in all `package.json` files:
 ### Verify NPM Packages
 
 ```bash
-npm install -g indori-lang
+npm install -g @indori-lang/cli
 indori version
 
 npm install @indori-lang/compiler

@@ -10,18 +10,18 @@
   "scripts": {
     "build": "pnpm -r build",
     "build:compiler": "pnpm --filter @indori-lang/compiler build",
-    "build:cli": "pnpm --filter indori-lang build",
+    "build:cli": "pnpm --filter @indori-lang/cli build",
     "test": "pnpm -r test",
     "test:compiler": "pnpm --filter @indori-lang/compiler test",
     "dev:website": "pnpm --filter @indori-lang/website dev",
     "build:website": "pnpm --filter @indori-lang/website build",
     "lint": "pnpm -r lint",
     "lint:compiler": "pnpm --filter @indori-lang/compiler lint",
-    "lint:cli": "pnpm --filter indori-lang lint",
+    "lint:cli": "pnpm --filter @indori-lang/cli lint",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
     "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\"",
     "publish:compiler": "pnpm --filter @indori-lang/compiler publish --access public",
-    "publish:cli": "pnpm --filter indori-lang publish --access public"
+    "publish:cli": "pnpm --filter @indori-lang/cli publish --access public"
   },
   "keywords": ["indori", "programming-language", "compiler", "transpiler", "typescript"],
   "author": "IndoriLang Team",

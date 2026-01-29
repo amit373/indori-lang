@@ -5,13 +5,13 @@ Command-line interface for IndoriLang - Run and compile IndoriLang programs from
 ## Installation
 
 ```bash
-npm install -g indori-lang
+npm install -g @indori-lang/cli
 ```
 
 Or use with npx:
 
 ```bash
-npx indori-lang run hello.il
+npx @indori-lang/cli run hello.il
 ```
 
 ## Usage

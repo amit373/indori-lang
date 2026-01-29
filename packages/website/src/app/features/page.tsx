@@ -108,7 +108,7 @@ poha_time();`;
 
 export default function FeaturesPage() {
   return (
-    <div className="container px-4 py-12">
+    <div className="container mx-auto px-4 py-12">
       <div className="max-w-6xl mx-auto space-y-16">
         {/* Header */}
         <motion.div
@@ -126,14 +126,14 @@ export default function FeaturesPage() {
         {/* Feature Cards */}
         <section>
           <h2 className="text-3xl font-bold mb-8 text-center">Key Features</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
             {features.map((feature, index) => (
               <motion.div
                 key={feature.title}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="p-6 rounded-2xl border bg-card shadow-xl hover:shadow-2xl transition-shadow"
+                className="p-6 rounded-2xl border bg-card shadow-xl hover:shadow-2xl transition-shadow min-w-0"
               >
                 <feature.icon className="h-10 w-10 text-primary mb-4" />
                 <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>

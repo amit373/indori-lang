@@ -24,8 +24,8 @@ export function Navbar() {
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between px-4">
-        <div className="flex items-center gap-6">
+      <div className="container mx-auto flex h-16 items-center justify-between gap-4 px-4">
+        <div className="flex min-w-0 flex-shrink-0 items-center gap-6">
           <Link href="/" className="flex items-center space-x-2">
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               IndoriLang
@@ -44,7 +44,7 @@ export function Navbar() {
           </div>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex flex-shrink-0 items-center gap-1 sm:gap-2">
           <Button
             variant="ghost"
             size="icon"
@@ -93,7 +93,7 @@ export function Navbar() {
           mobileMenuOpen ? 'max-h-64 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
         )}
       >
-        <div className="container px-4 py-4 space-y-3">
+        <div className="container mx-auto px-4 py-4 space-y-3">
           {navItems.map((item) => (
             <Link
               key={item.href}

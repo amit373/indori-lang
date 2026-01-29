@@ -57,5 +57,5 @@ npm run build
 
 - **Playground**: https://indori-lang.netlify.app
 - **NPM Compiler**: https://www.npmjs.com/package/@indori-lang/compiler
-- **NPM CLI**: https://www.npmjs.com/package/indori-lang
+- **NPM CLI**: https://www.npmjs.com/package/@indori-lang/cli
 - **VS Code Extension**: https://marketplace.visualstudio.com/items?itemName=indori-lang.indori-lang

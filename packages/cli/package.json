@@ -1,6 +1,6 @@
 {
-  "name": "indori-lang",
-  "version": "1.0.2",
+  "name": "@indori-lang/cli",
+  "version": "1.0.5",
   "description": "IndoriLang CLI - Run and compile IndoriLang programs from the command line",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -40,6 +40,9 @@
   "homepage": "https://indori-lang.netlify.app",
   "bugs": {
     "url": "https://github.com/amit373/indori-lang/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@indori-lang/compiler": "workspace:*"

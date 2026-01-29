@@ -75,7 +75,7 @@ export default function HomePage() {
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 dark:from-gray-900 dark:via-blue-900 dark:to-purple-900 py-20 md:py-32">
-        <div className="container px-4">
+        <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -141,7 +141,7 @@ export default function HomePage() {
 
       {/* Features Grid */}
       <section className="py-20 bg-background">
-        <div className="container px-4">
+        <div className="container mx-auto px-4 max-w-6xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -154,7 +154,7 @@ export default function HomePage() {
               Everything you need to write code in authentic Indori style
             </p>
           </motion.div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
             {features.map((feature, index) => (
               <motion.div
                 key={feature.title}
@@ -162,7 +162,7 @@ export default function HomePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
-                className="p-6 rounded-2xl border bg-card shadow-xl hover:shadow-2xl transition-shadow"
+                className="p-6 rounded-2xl border bg-card shadow-xl hover:shadow-2xl transition-shadow min-w-0"
               >
                 <feature.icon className="h-10 w-10 text-primary mb-4" />
                 <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
@@ -175,7 +175,7 @@ export default function HomePage() {
 
       {/* Example Code */}
       <section className="py-20 bg-muted/50">
-        <div className="container px-4">
+        <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -202,7 +202,7 @@ export default function HomePage() {
 
       {/* How it Works */}
       <section className="py-20 bg-background">
-        <div className="container px-4">
+        <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -249,7 +249,7 @@ export default function HomePage() {
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
-        <div className="container px-4">
+        <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

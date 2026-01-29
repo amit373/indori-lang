@@ -43,7 +43,7 @@ export default function CLIPage() {
         <p className="text-muted-foreground mb-4">
           Install the CLI globally to use IndoriLang from the command line:
         </p>
-        <CodeBlock code="npm install -g indori-lang/cli/cli" language="bash" />
+        <CodeBlock code="npm install -g @indori-lang/cli" language="bash" />
       </section>
 
       <section>

@@ -1,7 +1,7 @@
 # ✅ Setup Complete - Ready for Publishing!
 
 All necessary changes have been made to prepare IndoriLang for publishing as:
-1. **NPM Package (CLI)** - `indori-lang`
+1. **NPM Package (CLI)** - `@indori-lang/cli`
 2. **NPM Package (Compiler)** - `@indori-lang/compiler`
 3. **VS Code Extension** - `indori-lang`
 4. **Website Playground** - Ready for Netlify deployment
@@ -18,8 +18,7 @@ All necessary changes have been made to prepare IndoriLang for publishing as:
 - ✅ Created `.npmignore` file
 - ✅ Created README.md with usage examples
 
-#### CLI Package (`indori-lang`)
-- ✅ Changed package name from `@indori-lang/cli` to `indori-lang` (for global install)
+#### CLI Package (`@indori-lang/cli`)
 - ✅ Configured `bin` field for CLI command
 - ✅ Added `files` field
 - ✅ Added repository, homepage, and bugs URLs
@@ -96,8 +95,8 @@ npm run build
 ## 📝 Important Notes
 
 ### Package Names
-- **CLI**: `indori-lang` (global install: `npm install -g indori-lang`)
-- **Compiler**: `@indori-lang/compiler` (scoped package)
+- **CLI**: `@indori-lang/cli` (global install: `npm install -g @indori-lang/cli`)
+- **Compiler**: `@indori-lang/compiler`
 - **VS Code**: Publisher ID should be `indori-lang`
 
 ### Version Management
@@ -130,7 +129,7 @@ npm run dev
 After publishing, verify:
 
 - [ ] NPM packages are searchable on npmjs.com
-- [ ] CLI installs globally: `npm install -g indori-lang`
+- [ ] CLI installs globally: `npm install -g @indori-lang/cli`
 - [ ] CLI works: `indori version`
 - [ ] VS Code extension appears in marketplace
 - [ ] VS Code extension installs and works

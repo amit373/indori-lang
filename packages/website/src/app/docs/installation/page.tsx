@@ -9,7 +9,7 @@ export const metadata = {
 };
 
 const cliInstallCode = `# Install CLI globally
-npm install -g indori-lang/cli/cli
+npm install -g @indori-lang/cli
 
 # Verify installation
 indori version`;

@@ -2,7 +2,8 @@
 
 > **IndoriLang** - Programming language in authentic Indori slang (bhiya style)
 
-[![npm version](https://img.shields.io/npm/v/@indori-lang/compiler.svg)](https://www.npmjs.com/package/@indori-lang/compiler)
+[![npm compiler](https://img.shields.io/npm/v/@indori-lang/compiler.svg)](https://www.npmjs.com/package/@indori-lang/compiler)
+[![npm cli](https://img.shields.io/npm/v/@indori-lang/cli.svg)](https://www.npmjs.com/package/@indori-lang/cli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Playground](https://img.shields.io/badge/Playground-Online-blue.svg)](https://indori-lang.netlify.app)
 
@@ -26,7 +27,7 @@ IndoriLang is a fun, expressive programming language that uses authentic Indori 
 #### CLI Tool
 
 ```bash
-npm install -g indori-lang/cli/cli
+npm install -g @indori-lang/cli
 ```
 
 #### VS Code Extension
@@ -440,7 +441,7 @@ npm install @indori-lang/compiler
 Command-line interface
 
 ```bash
-npm install -g indori-lang/cli/cli
+npm install -g @indori-lang/cli
 ```
 
 ## 🔧 CLI Commands
@@ -501,7 +502,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Playground**: [https://indori-lang.netlify.app](https://indori-lang.netlify.app)
 - **GitHub**: [https://github.com/amit373/indori-lang](https://github.com/amit373/indori-lang)
-- **NPM**: [@indori-lang/compiler](https://www.npmjs.com/package/@indori-lang/compiler)
+- **NPM Compiler**: [@indori-lang/compiler](https://www.npmjs.com/package/@indori-lang/compiler)
+- **NPM CLI**: [@indori-lang/cli](https://www.npmjs.com/package/@indori-lang/cli)
 - **VS Code Marketplace**: [IndoriLang Extension](https://marketplace.visualstudio.com/items?itemName=indori-lang.indori-lang)
 
 ---
