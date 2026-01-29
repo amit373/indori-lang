@@ -69,7 +69,7 @@ npm publish --access public
 npm install -g @vscode/vsce
 
 # Login to VS Code Marketplace
-cd vscode-extension
+cd packages/vscode-extension
 vsce login indori-lang  # Use your publisher ID
 
 # Publish
@@ -103,7 +103,7 @@ npm run build
 Update version in these files before publishing:
 - `packages/compiler/package.json`
 - `packages/cli/package.json`
-- `vscode-extension/package.json`
+- `packages/vscode-extension/package.json`
 
 ### Testing Before Publishing
 

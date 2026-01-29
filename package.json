@@ -21,7 +21,8 @@
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
     "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\"",
     "publish:compiler": "pnpm --filter @indori-lang/compiler publish --access public",
-    "publish:cli": "pnpm --filter @indori-lang/cli publish --access public"
+    "publish:cli": "pnpm --filter @indori-lang/cli publish --access public",
+    "package:vscode": "cd packages/vscode-extension && npx @vscode/vsce package --no-dependencies"
   },
   "keywords": ["indori", "programming-language", "compiler", "transpiler", "typescript"],
   "author": "IndoriLang Team",

@@ -203,7 +203,7 @@
         "keyword.operator.logical.indori"
       ],
       "settings": {
-        "foreground": "#C586C0"
+        "foreground": "#C586C0",
         "fontStyle": "bold"
       }
     },

@@ -105,7 +105,7 @@ npm install -g @vscode/vsce
 ### Publish
 
 ```bash
-cd vscode-extension
+cd packages/vscode-extension
 vsce login indori-lang
 vsce package
 vsce publish
@@ -148,7 +148,7 @@ npm run build
 Update version in all `package.json` files:
 - `packages/compiler/package.json`
 - `packages/cli/package.json`
-- `vscode-extension/package.json`
+- `packages/vscode-extension/package.json`
 - Root `package.json` (if needed)
 
 ### Semantic Versioning

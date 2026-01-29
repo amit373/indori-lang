@@ -88,11 +88,20 @@
     "body": [
       "bhiya_try {",
       "  ${1:// code}",
-      "} bhiya_catch (${2:error}) {",
+      "} bhiya_catch(${2:e}) {",
       "  ${3:// handle error}",
       "}"
     ],
     "description": "Try-catch block"
+  },
+  "Do-While Loop": {
+    "prefix": "jabtak_re_kar",
+    "body": [
+      "jabtak_re_kar {",
+      "  ${1:// code}",
+      "} (${2:condition});"
+    ],
+    "description": "Do-while loop"
   },
   "Poha Time": {
     "prefix": "poha_time",

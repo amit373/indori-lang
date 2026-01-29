@@ -21,7 +21,7 @@ npm publish --access public
 ### 2. VS Code Extension
 
 ```bash
-cd vscode-extension
+cd packages/vscode-extension
 npm install -g @vscode/vsce
 vsce login indori-lang
 vsce publish

@@ -7,36 +7,62 @@ import { Footer } from '@/components/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
+const siteUrl = 'https://indori-lang.netlify.app';
+
 export const metadata: Metadata = {
-  metadataBase: new URL('https://indori-lang.netlify.app'),
+  metadataBase: new URL(siteUrl),
   title: {
     default: 'IndoriLang — Bhiya-Style Programming Language',
     template: '%s | IndoriLang',
   },
-  description: 'Write JavaScript with authentic Indori slang. A fun, expressive programming language that compiles to JavaScript.',
-  keywords: ['IndoriLang', 'programming language', 'Indori', 'JavaScript', 'compiler', 'transpiler'],
-  authors: [{ name: 'IndoriLang Team' }],
+  description:
+    'Write JavaScript with authentic Indori slang. A fun, expressive toy programming language that compiles to JavaScript. Try it in the browser, CLI, or VS Code.',
+  keywords: [
+    'IndoriLang',
+    'Indori Lang',
+    'programming language',
+    'Indori',
+    'JavaScript',
+    'compiler',
+    'transpiler',
+    'toy language',
+    '.il',
+  ],
+  authors: [{ name: 'IndoriLang Team', url: siteUrl }],
   creator: 'IndoriLang Team',
+  publisher: 'IndoriLang Team',
+  alternates: {
+    canonical: siteUrl,
+  },
+  icons: {
+    icon: '/icon.svg',
+    shortcut: '/icon.svg',
+    apple: '/icon.svg',
+  },
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#f59e0b' },
+    { media: '(prefers-color-scheme: dark)', color: '#1e293b' },
+  ],
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://indori-lang.netlify.app',
+    url: siteUrl,
     siteName: 'IndoriLang',
     title: 'IndoriLang — Bhiya-Style Programming Language',
-    description: 'Write JavaScript with authentic Indori slang.',
+    description: 'Write JavaScript with authentic Indori slang. Compiles to JavaScript. Playground, CLI, VS Code.',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'IndoriLang',
+        alt: 'IndoriLang — Programming language in Indori slang',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'IndoriLang — Bhiya-Style Programming Language',
-    description: 'Write JavaScript with authentic Indori slang.',
+    description: 'Write JavaScript with authentic Indori slang. Compiles to JavaScript. Playground, CLI, VS Code.',
     images: ['/og-image.png'],
   },
   robots: {
@@ -50,8 +76,10 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  verification: {
-    google: 'your-google-verification-code',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
   },
 };
 

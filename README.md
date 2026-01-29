@@ -371,9 +371,9 @@ For a detailed breakdown, see [FEATURES.md](./FEATURES.md).
 indori-lang/
 ├── packages/
 │   ├── compiler/          # TypeScript compiler/transpiler
-│   ├── cli/              # Command-line tool
-│   └── playground/        # React + Vite + Monaco playground
-├── vscode-extension/        # VS Code extension
+│   ├── cli/               # Command-line tool
+│   ├── website/          # Next.js website + playground
+│   └── vscode-extension/  # VS Code extension (syntax, snippets)
 ├── examples/              # Example .il files
 └── README.md
 ```
@@ -392,8 +392,8 @@ pnpm install
 # Build all packages
 pnpm run build
 
-# Run playground locally
-pnpm run dev:playground
+# Run website (and playground) locally
+pnpm run dev:website
 
 # Run tests
 pnpm test
@@ -462,7 +462,7 @@ indori help
 
 ## 🎨 VS Code Extension
 
-Install from VS Code Marketplace or search for "IndoriLang"
+Install from VS Code Marketplace or search for "IndoriLang". The extension source lives in `packages/vscode-extension/`. To package a `.vsix` from the repo: `pnpm run package:vscode`.
 
 Features:
 

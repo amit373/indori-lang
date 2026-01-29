@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useTheme } from 'next-themes';
 import { Moon, Sun, Menu, X, Github, Package } from 'lucide-react';
 import { Button } from './ui/button';
@@ -27,6 +28,7 @@ export function Navbar() {
       <div className="container mx-auto flex h-16 items-center justify-between gap-4 px-4">
         <div className="flex min-w-0 flex-shrink-0 items-center gap-6">
           <Link href="/" className="flex items-center space-x-2">
+            <Image src="/icon.svg" alt="IndoriLang" width={32} height={32} className="rounded-lg flex-shrink-0" />
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               IndoriLang
             </span>

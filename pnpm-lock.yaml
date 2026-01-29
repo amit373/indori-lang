@@ -61,6 +61,8 @@ importers:
         specifier: ^5.0.0
         version: 5.9.3
 
+  packages/vscode-extension: {}
+
   packages/website:
     dependencies:
       '@indori-lang/compiler':
